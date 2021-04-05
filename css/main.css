@@ -315,21 +315,26 @@ i {
   display: grid;
   place-items: center;
   grid-template-rows: 0.1fr 1fr;
+  background-color: white;
+}
+.about__section h2{
+  color: rgb(173, 89, 68);
 }
 
 .about__section  div {
-  border: 1px solid #000;
+  border: 0.5px solid white;
 }
 
 .grid__wrapper{
+
   display: grid;
-  gap: 32px;
+  gap: 28px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
     'left right' 
     
   ;
-  width: 80%;
+  width: 90%;
 }
 
 .left{
@@ -342,6 +347,7 @@ i {
     'leftside-top'  
     'leftside-bottom'
   ;
+  justify-content: center;
 }
 .right{
   grid-area: right;
@@ -358,38 +364,95 @@ i {
 
 .ltop{
 grid-area: leftside-top;
-background: rgb(208, 192, 238);
+background: peachpuff;
+
+
 }
 .ltop h1{
   font-size: 20px;
+  justify-content: center;
 
 }
+.ltop:hover{
+  transform: scale(1.02);
+  background-color: rgb(230, 127, 38);
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 30px rgb(134, 115, 10);
+}
+
+
 .lbottom{
 grid-area: leftside-bottom;
-background: rgb(208, 192, 238);
+background: peachpuff;
+justify-content: right;
+
+
 }
 .lbottom h1{
   font-size: 20px;
+  text-align: center;
+  
 }
+.lbottom:hover{
+  transform: scale(1.02);
+  background-color: rgb(230, 127, 38);
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 30px rgb(134, 115, 10);
+}
+
 .rtop{
 grid-area: rightside-top;
-background: rgb(208, 192, 238);
+background: peachpuff;
+
+
 }
 .rtop h1{
   font-size: 20px;
   
+  
 }
+.rtop:hover{
+  transform: scale(1.02);
+  background-color: rgb(230, 127, 38);
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 30px rgb(134, 115, 10);
+}
+
 .rmiddle{
 grid-area: rightside-middle;
-background: rgb(208, 192, 238);
+background: peachpuff;
+
+
 }
 .rmiddle h1{
   font-size: 20px;
+  text-align: center;
 }
+.rmiddle:hover{
+  transform: scale(1.02);
+  background-color:  rgb(230, 127, 38);
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 30px rgb(134, 115, 10);
+}
+
 .rbottom{
 grid-area: rightside-bottom;
-background: rgb(208, 192, 238);
+background: peachpuff;
+
+
 }
 .rbottom h1{
   font-size: 20px;
+  text-align: center;
+}
+.rbottom:hover{
+  transform: scale(1.02);
+  background-color: rgb(230, 127, 38);
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 30px rgb(134, 115, 10);
 }
