@@ -43,6 +43,9 @@
 }
 
 /* <!-- - - - - - - - - - - - - - - - - - - - - - -NAVBAR STYLING STARTS HERE - - - - - - - - - - - - - - - - - - - -  --> */
+=======
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
 
 .carousel-inner {
   height: 100vh;
@@ -113,4 +116,195 @@
   transition: 2s;
   transform: translate3d(0, 0, 0);
 }
+
 /* <!-- - - - - - - - - - - - - - - - - - - - - - -CAROUSEL STYLING ENDS HERE - - - - - - - - - - - - - - - - - - - -  --> */
+=======
+/*Client CSS */
+
+.client-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../assets/img/client-bg.webp);
+  background-repeat: repeat-x repeat-y;
+  background-size: contain;
+
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: coral;
+}
+
+.client-heading {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-family: "Rosarivo", serif;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+  text-align: center;
+}
+
+.profile {
+  flex-basis: 260px;
+}
+
+.profile {
+  min-width: 350px;
+}
+.profile .profile-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+}
+.profile .profile-img:hover {
+  transform: scale(1.1);
+  border: solid 3px green;
+}
+
+.profile:hover .profile-img {
+  filter: grayscale(0);
+}
+
+.client-name {
+  margin-top: 30px;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.profile h5 {
+  text-align: center;
+  color: rgb(233, 199, 199);
+  font-size: 20px;
+}
+
+.profile p {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+  color: rgb(162, 190, 162);
+}
+
+@media only screen and (max-width: 1150px) {
+  .profiles {
+    flex-direction: column;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile p {
+    text-align: center;
+    margin: 20px 60px 80px 60px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .client-heading {
+    font-size: 40px;
+    color: darksalmon;
+    text-align: center;
+  }
+
+  .client-heading span {
+    font-size: 15px;
+  }
+
+  .profiles {
+    margin: 20px 0;
+  }
+
+  .profile p {
+    margin: 20px 10px 80px 10px;
+  }
+}
+
+
+
+        /* --------------------------our services-------------------------------- */
+body {
+  background-color:white;
+  /* background-image: url("n.jpg"); */
+}
+.heading {
+  text-align: center;
+  padding: 80px;
+  font-size: 50px;
+  color: white;
+}
+
+.main3 {
+  padding: 0 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  padding-top: 30px;
+}
+.sec {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  border: solid 3px rgb(7, 65, 21);
+  display:flex;
+  justify-content: space-between;
+}
+.sec:hover {
+  transform: scale(1.02);
+  background-color:green;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 30px rgb(116, 236, 156);
+  
+}
+.main> h2{
+  color:rgb(35, 99, 35);
+  /* text-shadow: 2px 2px #00ff40; */
+}
+
+
+.main> p{
+  color:black ;
+  opacity: 0.7;
+}
+.align{
+  margin-left: 20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  
+}
+.icon {
+  display: flex;
+  height:100px;
+  width:100px;
+}
+.icon-background {
+  color: #c0ffc0;
+}
+i{
+  margin-top:20px;  
+}
+
+@media screen and (max-width: 992px) {
+.sec {
+flex: 50%;
+}
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.sec {
+flex-direction: column;
+}
+}
