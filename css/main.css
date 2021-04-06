@@ -1,13 +1,17 @@
 /* Bootstrap styling override */
 
-/* <!-- - - - - - - - - - - - - - - - - - - - - - -NAVBAR STYLING STARTS HERE - - - - - - - - - - - - - - - - - - - -  --> */
 @import url("https://fonts.googleapis.com/css2?family=Rosarivo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Marvel:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rosarivo&family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap");
+
+/* <!-- - - - - - - - - - - - - - - - - - - - - - -NAVBAR STYLING STARTS HERE - - - - - - - - - - - - - - - - - - - -  --> */
+
 .nav-link {
   position: relative;
   font-family: "Lato", sans-serif;
   font-size: 20px;
-  /* margin-right: 10px; */
 }
 .end-link {
   padding-right: 25px;
@@ -17,7 +21,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  /* display: block; */
+
   width: 0;
   height: 3px;
   background-image: linear-gradient(
@@ -34,24 +38,23 @@
 .navbar-brand {
   font-size: 30px !important;
   padding: 10px;
-  font-family: "Rosarivo", serif;
+  font-family: serif;
 }
 .navbar-brand:hover {
   transform: scale(1.15);
-  text-shadow: 0 0 8px rgb(67, 90, 223);
+  /* text-shadow: 0 0 8px rgb(67, 90, 223); */
   transition: 0.5s;
-}
-
-/* <!-- - - - - - - - - - - - - - - - - - - - - - -NAVBAR STYLING STARTS HERE - - - - - - - - - - - - - - - - - - - -  --> */
-=======
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-
-
-.carousel-inner {
-  height: 100vh;
 }
 .navbar-brand {
   font-size: 35px;
+}
+/* <!-- - - - - - - - - - - - - - - - - - - - - - -NAVBAR STYLING ENDS HERE - - - - - - - - - - - - - - - - - - - -  --> */
+
+/* <!-- - - - - - - - - - - - - - - - - - - - - - -CAROUSEL STYLING STARTS HERE - - - - - - - - - - - - - - - - - - - -  --> */
+
+.carousel-inner {
+  margin-top: 10vh;
+  height: 90vh;
 }
 .collapse {
   font-size: 20px;
@@ -86,8 +89,6 @@
 .carousel-item > .carousel-caption > p {
   font-size: 20px;
 }
-/* <!-- - - - - - - - - - - - - - - - - - - - - - -CAROUSEL STYLING STARTS HERE - - - - - - - - - - - - - - - - - - - -  --> */
-
 .carousel-fade .carousel-item {
   opacity: 0;
   transition-duration: 0.6s;
@@ -118,7 +119,7 @@
 }
 
 /* <!-- - - - - - - - - - - - - - - - - - - - - - -CAROUSEL STYLING ENDS HERE - - - - - - - - - - - - - - - - - - - -  --> */
-=======
+
 /*Client CSS */
 
 .client-container {
@@ -127,7 +128,7 @@
   background-repeat: repeat-x repeat-y;
   background-size: contain;
 
-  height: 100vh;
+  height: 92vh;
   font-family: "Poppins", sans-serif;
   color: coral;
 }
@@ -137,13 +138,13 @@
   color: white;
   text-align: center;
   padding: 50px;
-  font-family: "Rosarivo", serif;
+  font-family: serif;
 }
 
 .profiles {
   display: flex;
   justify-content: space-around;
-  margin: 20px 80px;
+  /* margin: 20px 80px; */
   text-align: center;
 }
 
@@ -161,6 +162,19 @@
   filter: grayscale(100%);
   cursor: pointer;
   transition: 400ms;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.profile .client1 {
+  background-image: url("../assets/img/client1.jpg");
+}
+.profile .client2 {
+  background-image: url("../assets/img/client2.jpg");
+}
+.profile .client3 {
+  background-image: url("../assets/img/client3.jpg");
 }
 .profile .profile-img:hover {
   transform: scale(1.1);
@@ -172,7 +186,7 @@
 }
 
 .client-name {
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 35px;
   text-align: center;
   font-family: "Rubik", sans-serif;
@@ -186,7 +200,7 @@
 
 .profile p {
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 15px;
   text-align: justify;
   color: rgb(162, 190, 162);
 }
@@ -229,18 +243,16 @@
   }
 }
 
-
-
-        /* --------------------------our services-------------------------------- */
-body {
-  background-color:white;
-  /* background-image: url("n.jpg"); */
+/* --------------------------our services-------------------------------- */
+.main {
+  height: 92vh;
 }
-.heading {
+.services-heading {
+  font-size: 60px;
+  color: black !important;
   text-align: center;
-  padding: 80px;
-  font-size: 50px;
-  color: white;
+  padding: 50px;
+  font-family: serif;
 }
 
 .main3 {
@@ -250,61 +262,224 @@ body {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
   padding-top: 30px;
+  padding-bottom: 137px;
 }
 .sec {
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   background-color: white;
   border: solid 3px rgb(7, 65, 21);
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 .sec:hover {
   transform: scale(1.02);
-  background-color:green;
+  background-color: green;
   cursor: pointer;
   color: white;
   box-shadow: 0 0 30px rgb(116, 236, 156);
-  
 }
-.main> h2{
-  color:rgb(35, 99, 35);
+.main > h2 {
+  color: rgb(35, 99, 35);
   /* text-shadow: 2px 2px #00ff40; */
 }
-
-
-.main> p{
-  color:black ;
+.main > p {
+  color: black;
   opacity: 0.7;
 }
-.align{
+.align {
   margin-left: 20px;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .icon {
   display: flex;
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
+  margin-top: 35px;
 }
 .icon-background {
   color: #c0ffc0;
 }
-i{
-  margin-top:20px;  
+
+/* About Section CSS */
+
+.about-heading {
+  padding-top: 60px;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-family: serif;
+}
+.about__section {
+  height: 92vh;
+  display: grid;
+  place-items: center;
+  grid-template-rows: 0.1fr 1fr;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../assets/img/client-bg.webp);
+  background-repeat: repeat-x repeat-y;
+  background-size: contain;
+}
+.grid__wrapper {
+  display: grid;
+  padding: 0 150px;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right";
 }
 
-@media screen and (max-width: 992px) {
-.sec {
-flex: 50%;
+.left {
+  grid-area: left;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "leftside-top"
+    "leftside-bottom";
 }
+.right {
+  grid-area: right;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "rightside-top"
+    "rightside-middle"
+    "rightside-bottom";
+}
+li {
+  list-style-type: none;
+}
+.ltop {
+  grid-area: leftside-top;
+  background: white;
+  font-family: "Lato", sans-serif;
+  padding-top: 20px;
+}
+.grid-heading {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3px;
+  color: green;
 }
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-.sec {
-flex-direction: column;
+.lbottom {
+  grid-area: leftside-bottom;
+  background: white;
+  font-family: "Lato", sans-serif;
+  padding-right: 10px;
+  padding-top: 20px;
 }
+.lbottom > .grid-heading {
+  padding-bottom: 20px;
+}
+.rtop {
+  grid-area: rightside-top;
+  background: white;
+  font-family: "Lato", sans-serif;
+  padding-top: 10px;
+}
+.team {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  align-items: center;
+}
+.rtop > .grid-heading {
+  padding-bottom: 20px;
+}
+.rmiddle {
+  grid-area: rightside-middle;
+  background: white;
+  padding-bottom: 10px;
+  font-family: "Lato", sans-serif;
+  padding-top: 10px;
+}
+
+.rbottom {
+  grid-area: rightside-bottom;
+  background: white;
+  font-family: "Lato", sans-serif;
+  padding-top: 10px;
+}
+
+/* -------------Blog------------- */
+.blog-main {
+  max-height: 90vh;
+}
+.col {
+  margin: 0;
+}
+.card-div {
+  padding: 60px;
+  max-width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 30px;
+}
+
+.col:hover {
+  transform: scale(1.02);
+  cursor: grabbing;
+}
+.blog-heading {
+  color: black;
+  padding-top: 60px;
+}
+.blog-heading > h3 {
+  text-align: center;
+  padding-top: 30px;
+  color: rgb(224, 165, 54);
+}
+.blog-heading > h5 {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  font-family: serif;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  height: 200px;
+}
+.card-body > h5 {
+  color: black;
+}
+/* ------------------------------------------------------------ */
+/* - - - - - - - - - - - - - - - Contact us section - - - - - - - - - - - - - - -  */
+
+.contact-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/img/contact-bg.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+}
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 150px;
+}
+.contact-us-icon {
+  color: orange;
+  padding: 8px;
+}
+.contact-us-icon:hover {
+  color: white;
+  cursor: grab;
+}
+.contact-section {
+  max-width: 400px;
+  text-align: center;
+}
+.contact-section > h5 {
+  padding-top: 20px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
 }
