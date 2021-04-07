@@ -479,7 +479,7 @@ img {
 
 .contact-main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/assets/img/contact-bg.jpg");
+    url("../assets/img/contact-bg.jpg");
   background-repeat: repeat;
   background-size: contain;
   height: auto;
