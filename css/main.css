@@ -160,7 +160,7 @@
   filter: grayscale(100%);
   cursor: pointer;
   transition: 400ms;
-  background-image: url("../assets/img/client1.jpg");
+  background-image: url("../assets/img/client1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,7 +173,7 @@
   filter: grayscale(100%);
   cursor: pointer;
   transition: 400ms;
-  background-image: url("../assets/img/client2.jpg");
+  background-image: url("../assets/img/client2.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,7 +186,46 @@
   filter: grayscale(100%);
   cursor: pointer;
   transition: 400ms;
-  background-image: url("../assets/img/client3.jpeg");
+  background-image: url("../assets/img/client3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.profile .profile-img4 {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+  background-image: url("../assets/img/client4.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.profile .profile-img5 {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+  background-image: url("../assets/img/client5.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.profile .profile-img6 {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+  background-image: url("../assets/img/client6.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -425,8 +464,6 @@ li {
   font-family: "Lato", sans-serif;
   padding-top: 10px;
 }
-
-
 
 /* -------------Blog------------- */
 .blog-main{
