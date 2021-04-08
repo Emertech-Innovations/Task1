@@ -454,11 +454,11 @@ li {
 }
 .blog-heading {
   color: black;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 .blog-heading > h3 {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   color: rgb(224, 165, 54);
 }
 .blog-heading > h2 {
@@ -475,6 +475,17 @@ img {
 }
 .card-body > h5 {
   color: black;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  height: 30px;
+  background-color: white;
+}
+.card-footer > h5 {
+  font-size: 15px;
+  font-family: serif;
 }
 /* ------------------------------------------------------------ */
 /* - - - - - - - - - - - - - - - Contact us section - - - - - - - - - - - - - - -  */
@@ -589,7 +600,7 @@ img {
   text-align: center;
   font-family: "Halant", serif;
 }
-
+/* ---------------------------------News css section------------------------------- */
 .news-main {
   height: 90vh;
 }
@@ -616,10 +627,4 @@ img {
 }
 .news-main > .owl-carousel .owl-stage {
   margin-bottom: 10px;
-}
-.card-img-top {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: auto;
 }
