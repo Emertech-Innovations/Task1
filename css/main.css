@@ -140,7 +140,7 @@
   font-size: 60px;
   color: white;
   text-align: center;
-  padding: 50px;
+  padding-top: 50px;
   font-family: serif;
 }
 
@@ -180,7 +180,7 @@
   background-image: url("../assets/img/client3.jpg");
 }
 .profile .profile-img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   border: solid 3px green;
 }
 
@@ -207,7 +207,9 @@
   text-align: justify;
   color: rgb(162, 190, 162);
 }
-
+.client-container > .owl-carousel .owl-stage {
+  margin-top: 50px;
+}
 @media only screen and (max-width: 1150px) {
   .profiles {
     flex-direction: column;
@@ -586,4 +588,38 @@ img {
   font-size: 16px;
   text-align: center;
   font-family: "Halant", serif;
+}
+
+.news-main {
+  height: 90vh;
+}
+.news-heading > h5 {
+  font-size: 60px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  font-family: serif;
+}
+.news-heading > h3 {
+  text-align: center;
+  color: black;
+}
+.container {
+  width: 100%;
+}
+.owl-carousel .owl-stage-outer {
+  width: 100%;
+}
+
+.owl-dots {
+  min-width: 100%;
+}
+.news-main > .owl-carousel .owl-stage {
+  margin-bottom: 10px;
+}
+.card-img-top {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
 }
