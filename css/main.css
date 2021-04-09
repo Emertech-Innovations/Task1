@@ -152,15 +152,12 @@
 }
 
 .profile {
-  flex-basis: 260px;
-}
-
-.profile {
   min-width: 350px;
+  font-size: 16px;
 }
 .profile .profile-img {
-  height: 260px;
-  width: 260px;
+  height: 18em;
+  width: 18em;
   border-radius: 50%;
   filter: grayscale(100%);
   cursor: pointer;
@@ -190,7 +187,7 @@
 
 .client-name {
   margin-top: 20px;
-  font-size: 35px;
+  font-size: 2.2em;
   text-align: center;
   font-family: "Rubik", sans-serif;
 }
@@ -198,49 +195,39 @@
 .profile h5 {
   text-align: center;
   color: rgb(233, 199, 199);
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 .profile p {
-  font-size: 16px;
-  margin-top: 15px;
+  font-size: 1em;
+  margin-top: 1em;
   text-align: justify;
   color: rgb(162, 190, 162);
 }
 .client-container > .owl-carousel .owl-stage {
   margin-top: 50px;
 }
-@media only screen and (max-width: 1150px) {
-  .profiles {
-    flex-direction: column;
-  }
 
+@media only screen and (max-width: 768px) {
+  .client-container {
+    height: auto;
+  }
   .profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: 12px;
   }
-
-  .profile p {
-    text-align: center;
-    margin: 20px 60px 80px 60px;
-    font-size: 20px;
+  .owl-carousel .owl-stage-outer {
+    height: 29em;
   }
-}
-
-@media only screen and (max-width: 900px) {
+  .owl-stage {
+    padding-left: 31px !important;
+    padding-right: 50px !important;
+  }
   .client-heading {
     font-size: 40px;
-    color: darksalmon;
+    color: white;
     text-align: center;
-  }
-
-  .client-heading span {
-    font-size: 15px;
-  }
-
-  .profiles {
-    margin: 20px 0;
+    padding-top: 30px;
+    font-family: serif;
   }
 
   .profile p {
@@ -491,6 +478,26 @@ img {
   font-size: 15px;
   font-family: serif;
 }
+@media only screen and (max-width: 768px) {
+  .blog-heading h2 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-family: serif;
+  }
+  .blog-heading h3 {
+    font-size: 15px;
+    max-height: 20px;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .blog-heading {
+    padding-top: 20px;
+  }
+  .col {
+    padding-bottom: 20px;
+  }
+}
 /* ------------------------------------------------------------ */
 /* - - - - - - - - - - - - - - - Contact us section - - - - - - - - - - - - - - -  */
 
@@ -614,6 +621,25 @@ img {
   font-size: 16px;
   text-align: center;
   font-family: "Halant", serif;
+}
+@media only screen and (max-width: 768px) {
+  .info-main {
+    padding: 90px 60px 60px 60px;
+  }
+  .info-icon {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+  .info-icon h5 {
+    font-size: 0.5em;
+  }
+  .info-icon p {
+    display: none;
+  }
+  .info-block {
+    height: 70px;
+    width: 70px;
+  }
 }
 /* ---------------------------------News css section------------------------------- */
 .news-main {
