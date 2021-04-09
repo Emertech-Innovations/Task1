@@ -13,8 +13,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
    
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script> -->
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="loader.js"></script>
     <title>Document</title>
@@ -22,7 +22,10 @@
 
   <body>
     <div id="nav-placeholder"></div>
-    <section>
+      
+    <!-- Main carousel sectin starts -->
+
+      <section>
       <div id="scroll-container">
         <div
           id="carouselExampleIndicators"
@@ -121,8 +124,9 @@
         </div>
       </section>
 
-      <!-- ------------------------ About Section ---------------------------- -->
-      <section>
+    <!-- Main carousel sectin starts -->
+    <!-- ------------------------ About Section ---------------------------- -->
+    <!-- <section>
           <div id="about" class="about__section">
             <h1 class="about-heading">About Us</h1>
             <div class="grid__wrapper">
@@ -172,104 +176,78 @@
             </div>
           </div>
         </div>
-      </section>
-      <!-- ------------------------ End of About Section ---------------------------- -->
+      </section> -->
+    <!-- ------------------------ End of About Section ---------------------------- -->
 
-        <!-- - - - - - - - - - - - - - - - - - - - - Services Section- - - - - - - - - - - - - - - - - - -  - - - -->
-
-
-    <section>
-      <div id="services" class="services">
-        <div class="main">
-          <h2 class="services-heading"> Our Services</h2>
-          <div class="main2">
-            <div class="main3">
-                <div class="sec">
-                    <div class='icon'>
-                    <i class="fas fa-truck-loading s-icon"></i></div>
-                    <div class='align'>
-                        <h5 >
-                        Field to fork real-time traceability</h5>
-                        <p>
-                        Tracking food from the moment it leaves the farmer till it is made
-                        available at your store.
-                        </p>
+    <!-- - - - - - - - - - - - - - - - - - - - - Services Section- - - - - - - - - - - - - - - - - - -  - - - -->
+    
+        <!-- <section>
+          <div id="services" class="services">
+            <div class="main">
+              <h2 class="services-heading"> Our Services</h2>
+              <div class="main2">
+                <div class="main3" data-aos='zoom-in' data-aos-delay="300">
+                    <div class="sec" data-aos='fade-right'>
+                        <div class='icon'>
+                        <i class="fas fa-truck-loading s-icon"></i></div>
+                        <div class='align'>
+                            <h5 >
+                            Field to fork real-time traceability</h5>
+                            <p>
+                            Tracking food from the moment it leaves the farmer till it is made
+                            available at your store.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sec">
-                    <div class='icon'>
-                       <i class="fas fa-hand-holding-usd s-icon"></i>
+                    <div class="sec" data-aos='fade-left' data-aos-delay="300">
+                        <div class='icon'>
+                          <i class="fas fa-hand-holding-usd s-icon"></i>
+                        </div>
+                            
+                            <div class='align'><h5> Price Transparency, visibility to Farmer/Customer</h5>
+                            <p>
+                                Ensuring fair equity to all partners of the agricultural value chain from the farmer to the consumer.Keeping all costs and profits transparent for public view.
+                            </p>
+                            </div>
                     </div>
+                    <div class="sec" data-aos='fade-right' data-aos-delay="500">
+                            <div class='icon'>
+                        <i class="fas fa-stamp s-icon"></i>
+                            </div>
+                        <div class='align'>
+                            <h5> Practice and product certifications via Blockchain</h5>
+                            <p>
+                            Certifications of quality, usage of fertilisers and pesticides, fair trade norms, international standards, to be created with Blockchain backed support.
+                            </p>
                         
-                        <div class='align'><h5> Price Transparency, visibility to Farmer/Customer</h5>
-                        <p>
-                            Ensuring fair equity to all partners of the agricultural value chain from the farmer to the consumer.Keeping all costs and profits transparent for public view.
-                        </p>
                         </div>
-                </div>
-                <div class="sec">
-                        <div class='icon'>
-                    <i class="fas fa-stamp s-icon"></i>
-                        </div>
-                    <div class='align'>
-                        <h5> Practice and product certifications via Blockchain</h5>
-                        <p>
-                        Certifications of quality, usage of fertilisers and pesticides, fair trade norms, international standards, to be created with Blockchain backed support.
-                        </p>
-                    
                     </div>
-                </div>
-                <div class="sec">
-                        <div class='icon'>
-                          <i class="fab fa-searchengin s-icon"></i>
+                    <div class="sec" data-aos='fade-left' data-aos-delay="500">
+                            <div class='icon'>
+                              <i class="fab fa-searchengin s-icon"></i>
+                            </div>
+                            <div class='align'> 
+                                <h5>Farmer collective Performance monitoring</h5>
+                            <p>
+                            Generating insights based on trusted data to ensure maximum sustainability to the farmer collectives, offering them advices for price benchmarking and market reports based on real sales data.
+                            </p>
                         </div>
-                        <div class='align'> 
-                            <h5>Farmer collective Performance monitoring</h5>
-                        <p>
-                        Generating insights based on trusted data to ensure maximum sustainability to the farmer collectives, offering them advices for price benchmarking and market reports based on real sales data.
-                        </p>
-                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section> -->
 
-               <!-- - - - - - - - - - - - - - - - - - - - - Services Section- - - - - - - - - - - - - - - - - - -  - - - -->
+    <!-- - - - - - - - - - - - - - - - - - - - - Services Section- - - - - - - - - - - - - - - - - - -  - - - -->          
 
-               <!-- - - - - - - - - - - - - - - - - - - - - Normal Section- - - - - - - - - - - - - - - - - - -  - - - -->
-<section>
- <div  class="info">
-          <div class="info-main" >
-            <div class="info-icon">
-              <div class="info-block"><i class="fas fa-cloud-sun-rain"></i></div>
-              <h5>Weather update</h5>
-              <p>Farmer's get weather update notifications on their phone.</p>
-            </div>
-            <div  class="info-icon">
-              <div class="info-block"><i class="fas fa-tractor"></i></div>
-              <h5>Easy transport</h5>
-              <p>Member's of FPO can help each others for transportation.</p>
-            </div>
-            <div class="info-icon">
-              <div class="info-block"><i class="fas fa-retweet"></i></div>
-              <h5>Rent equipments</h5>
-              <p>As per need, farmer's rent their equipments.</p>
-            </div>         
-          </div>
-          
-</section>
-
-               
-
-        <!-- - - - - - - - - - - - - - - - - - - - - Clients Section starts- - - - - - - - - - - - - - - - - - -  - - - -->
+    <!-- - - - - - - - - - - - - - - - - - - - - Clients Section starts- - - - - - - - - - - - - - - - - - -  - - - -->
         <section>
           <div id="clients" class="client-container">
             <h2 class="client-heading">Our Clients</h2>
-            <div class="profiles owl-carousel owl-theme">
-              <div class="profile item">
+            <div class="profiles owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="1000">
+              <div class="profile item" >
                 <div class="profile-img client1" ></div>
 
                 <h3 class="client-name">Balbir Singh</h3>
@@ -309,7 +287,8 @@
         </section>
 <!-- - - - - - - - - - - - - - - - - - - - - Clients Section ends- - - - - - - - - - - - - - - - - - -  - - - -->
 <!-- - - - - - - - - - - - - - - - - - - - - News Section starts- - - - - - - - - - - - - - - - - - -  - - - -->
-  <section> 
+     
+      <!-- <section> 
         <div  id='news' class="news-main">
           <div class="news-heading">
             <h5>News Update</h5>
@@ -317,7 +296,7 @@
             about our industry</h3>
           </div>
      
-          <div class="row row-cols-1 row-cols-md-4 g-4 card-div owl-carousel owl-theme container">
+          <div class="row row-cols-1 row-cols-md-4 g-4 card-div owl-carousel owl-theme container" data-aos-duration="1000" data-aos="fade-up">
             <div class="item">
               <div class="news-col">
               <div class="card h-100">
@@ -386,11 +365,34 @@
       
             
         </div>
-      </section>
+      </section> -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - News Section ends- - - - - - - - - - - - - - - - - - -  - - - -->
         
-     <!--  Blog cards -->
+    <!-- - - - - - - - - - - - - - - - - - - - - Normal Section- - - - - - - - - - - - - - - - - - -  - - - -->
+        <section>
+        <div  class="info">
+                  <div class="info-main" >
+                    <div class="info-icon">
+                      <div class="info-block"><i class="fas fa-cloud-sun-rain"></i></div>
+                      <h5>Weather update</h5>
+                      <p>Farmer's get weather update notifications on their phone.</p>
+                    </div>
+                    <div  class="info-icon">
+                      <div class="info-block"><i class="fas fa-tractor"></i></div>
+                      <h5>Easy transport</h5>
+                      <p>Member's of FPO can help each others for transportation.</p>
+                    </div>
+                    <div class="info-icon">
+                      <div class="info-block"><i class="fas fa-retweet"></i></div>
+                      <h5>Rent equipments</h5>
+                      <p>As per need, farmer's rent their equipments.</p>
+                    </div>         
+                  </div>
+                  
+        </section>
+
+    <!--  Blog cards -->
        <section>
         <div  id='blog' class="blog-main">
           <div class="blog-heading">
@@ -399,7 +401,7 @@
             about our industry</h3>
           </div>
      
-          <div class="row row-cols-1 row-cols-md-4 g-4 card-div">
+          <div class="row row-cols-1 row-cols-md-4 g-4 card-div" data-aos="fade-up" data-aos-duration="1000">
             <div class="col">
               <div class="card h-100">
                 <img src="../assets/img/img1.webp" class="card-img-top" alt="...">
@@ -459,9 +461,10 @@
           </div>
         </div>
        </section>
-      <!--  Blog cards ends here... -->
-
-       <section>
+    <!--  Blog cards ends here... -->
+  <!-- Contact section starts -->
+       
+      <!-- <section>
         <div id="contact" class="contact-main">
           <div class="contact-us">
             <div class="contact-section">
@@ -487,8 +490,9 @@
          <div class="copyright">
               <h4>Copyright &copy;2021-JNECians | All Rights Reserved</h4>
           </div>
-       </section>
+      </section> -->
 
+  <!-- Contact section ends -->
       
         <button type="button" title="Scroll to top" id="myBtn">
           <a href="#top" style="color: white"><i class="fas fa-caret-up s-btn"></i></a>
@@ -511,5 +515,6 @@
     
     <script src="scroll.js"></script>
     <!-- <script src="scroll2.js"></script> -->
+      <script>AOS.init();</script>
   </body>
 </html>
