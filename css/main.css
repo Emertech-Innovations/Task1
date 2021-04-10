@@ -218,8 +218,8 @@
     height: 29em;
   }
   .owl-stage {
-    padding-left: 31px !important;
-    padding-right: 50px !important;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .client-heading {
     font-size: 40px;
