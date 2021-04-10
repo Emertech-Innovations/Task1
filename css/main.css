@@ -339,6 +339,58 @@
   }
 }
 /* About Section CSS */
+.about__section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/img/abt-bg.webp");
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  background-repeat: no-repeat;
+  color: white;
+}
+.abt-heading {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-family: serif;
+}
+.bg-img {
+  background-image: url("../assets/img/abt-farmer.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+.col-md-4 h5 {
+  color: green;
+  text-decoration: none;
+  text-align: center;
+}
+.col-md-4 {
+  padding: 5%;
+}
+.abt-info {
+  padding: 15px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  margin-left: 70px;
+}
+@media only screen and (max-width: 768px) {
+  .abt-info {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+  }
+}
 
 /* -------------Blog------------- */
 .blog-main {
